@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     position: relative;
     width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
 }
 
@@ -97,6 +100,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     display: flex;
     justify-content: space-between;
     position: relative;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .story__content-text {
@@ -143,6 +149,10 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     background-image: url(../images/shape.png);
     background-repeat: no-repeat;
     background-position: right 27px center;
+}
+
+.story__number-1 .main__title-tag {
+    position: absolute;   
 }
 
 .story__images-container {
